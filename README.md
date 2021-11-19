@@ -1,5 +1,6 @@
 # Arnaldo
 
-Meu principal bot do discord, o grande diferencial dele é seu comando de `Chat` que utiliza a biblioteca [chatterbot](https://github.com/gunthercox/ChatterBot), fazendo com que seja possível conversar com o bot
+## Agora escrito em JavaScript!
+Com a triste notícia de que o discord.py vai acabar, eu re-escrevi todo o código do Arnaldo em `Javascript`. Infelizmente com essa mudança, foi preciso acabar com o comando de `chat`. Sim eu sei que tem algumas alternativas.
 
 Projeto inciado em **17/04/2021**
