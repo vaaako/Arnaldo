@@ -1,0 +1,19 @@
+{
+  "name": "Arnaldo",
+  "version": "3.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "distube": "^2.8.18",
+    "express": "^4.17.1",
+    "node-fetch": "^3.0.0",
+    "opusscript": "0.0.8"
+  }
+}
