@@ -1,19 +1,16 @@
 {
-  "name": "Arnaldo",
-  "version": "3.0",
+  "name": "Cavalo",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.2.0",
-    "distube": "^2.8.18",
+    "config.json": "0.0.4",
+    "discord.js": "^12.3.1",
     "express": "^4.17.1",
-    "node-fetch": "^3.0.0",
-    "opusscript": "0.0.8"
+    "glob": "^7.2.0",
+    "node-fetch": "^3.1.0"
   }
 }
