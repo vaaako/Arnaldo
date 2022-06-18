@@ -57,7 +57,7 @@ module.exports = {
 			if(!data || data==obj[message.guild.id]['universal-chat']) // If universal-chat isn't avaiable
 				continue;
 			client.channels.cache.get(data).send(`> **\`${message.guild.name}\`** ${LANGUAGE.join}`)
-			.catch(() => console.log(`Universal Channel don't exist \nC: ${data} (${index})`));
+			.catch(() => console.log(`UC: This channel don't exist anymore \nC: ${data} (S: ${index.id})`));
 		}
 
 	}

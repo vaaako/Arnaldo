@@ -62,10 +62,8 @@ module.exports = async (client, message) => {
 			let index = Object.keys(obj)[i];
 			let data = obj[index]['universal-chat'];
 
-			if(!data || !client.guilds.cache.get(index).channels.cache.find(c => c.id === data)) // If universal-chat isn't avaiable
-				continue;
-
-			if(data==obj[server]['universal-chat']) // If the current data is the same as the server universal-chat id
+			// If universal-chat isn't avaiable || If the current data is the same as the server universal-chat id
+			if(!data || data==obj[server]['universal-chat']) 
 				continue;
 
 			client.channels.cache.get(data)
@@ -76,9 +74,10 @@ module.exports = async (client, message) => {
 			// 			webhook.delete();
 			// 		});
 			// 	})
-			.catch((err) => 
-				message.reply(LANGUAGE.error.replace('$ERROR', err.message).replace('$PREFIX', prefix))
-			);
+			// .catch((err) => 
+			// 	message.reply(LANGUAGE.error.replace('$ERROR', err.message).replace('$PREFIX', prefix))
+			// );
+			.catch(() => console.log(`UC: This channel don't exist anymore \nC: ${data} (S: ${server})`));
 		}
 	}
 	/*----------------------------------------------------------------------------------------------------*/
@@ -105,15 +104,34 @@ module.exports = async (client, message) => {
 
 	// If the command is now valid
 	if(command) {
-
 		// Check Necessary permissions
-		// PLACHE HOLDER
 		if(!message.channel.permissionsFor(client.user.id).has([
-			'SEND_MESSAGES', 
-			'VIEW_CHANNEL', 
-			'READ_MESSAGE_HISTORY', 
-			'MANAGE_MESSAGES', 
-			'ADMINISTRATOR'
+			// GENERAL PERMISSIONS
+			'MANAGE_CHANNELS',
+			'KICK_MEMBERS',
+			'BAN_MEMBERS',
+			'CREATE_INSTANT_INVITE',
+			'CHANGE_NICKNAME',
+			'MANAGE_NICKNAMES',
+			'MANAGE_WEBHOOKS',
+			'VIEW_CHANNEL',
+
+			// TEXT PERMISSIONS
+			'SEND_MESSAGES',
+			'SEND_MESSAGES_IN_THREADS',
+			'SEND_TTS_MESSAGES',
+			'MANAGE_MESSAGES',
+			'EMBED_LINKS',
+			'ATTACH_FILES',
+			'READ_MESSAGE_HISTORY',
+			'USE_EXTERNAL_EMOJIS',
+			'USE_EXTERNAL_STICKERS',
+			'ADD_REACTIONS',
+			'USE_APPLICATION_COMMANDS',
+
+			// VOICE PERMISSIONS
+			'CONNECT',
+			'SPEAK'
 		])) return message.channel.send(LANGUAGE.noPermissions);
 
 		// Check if user is banned again
@@ -171,8 +189,7 @@ module.exports = async (client, message) => {
 				return;
 
 			let dev = require("../../files/database/statics/dev.json");
-			client.channels.cache.get(dev['error-channel'])
-			.send({ embeds: [ new MessageEmbed()
+			client.channels.cache.get(dev['error-channel']).send({ embeds: [ new MessageEmbed()
 				.setDescription(`Error on **${message.guild.name}** (\`${message.guild.id}\`) \nCommand name: **${command.name}** \n\`\`\` ${err} \`\`\` `).setTimestamp().setColor(ee.wrongcolor) ] })
 
 		});

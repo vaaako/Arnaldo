@@ -8,7 +8,8 @@
 	},
 	"messageCreate": {
 		"adminOnly": "You need admin permission to use this command!",
-		"banned": "Você está **banido** de usar qualquer comando pelo seguinte motivo: \n`$REASON` \nAcha que seu banimento foi injusto? User o comando `$PREFIXreport <report>`\nComo tu conseguiu ser banido de um bot do discord?",
+		"banned": "Você está **banido** de usar qualquer comando pelo seguinte motivo: \n`$REASON` \n\nFor ban appel, type `$PREFIXreport <report>`",
+		"banned": "You're **banned** from using any command \nReason: `$REASON` \n\nAcha que seu banimento foi injusto? User o comando `$PREFIXreport <report>`\nComo tu conseguiu ser banido de um bot do discord?",
 		"noPermissions": "Ops! Looks like I don't have enough permissions to execute my commands!",
 		"noCmd": "Need help? \nType `$PREFIXhelp` to see all my commands categorys",
 		"nsfw": "Use this command in a NSFW channel only. I think you don't want be banned",

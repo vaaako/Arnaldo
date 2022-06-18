@@ -63,13 +63,14 @@ module.exports = {
 				.setTimestamp()
 				.setColor(ee.color);
 
-			let guildID = guild.id;
-			console.log(guildID)
+			let guildId = guild.id;
+			console.log(guildId)
 
-			if(!findKey(obj, guildID) || !guild.channels.cache.find(c => c.id === obj[guildID]['announcement-channel']))
+			if(!findKey(obj, guildId))
 				sendFirstChannel(guild, { embeds: [embed] });
 			else
-				client.channels.cache.get(obj[guildID]['announcement-channel']).send({ embeds: [embed] });
+				client.channels.cache.get(obj[guildId]['announcement-channel']).send({ embeds: [embed] })
+				.catch(() => console.log(`ANUN: This channel don't exist anymore \nC: ${obj[guildId]['announcement-channel']} (S: ${guildId})`));
 		});
 	}
 };
