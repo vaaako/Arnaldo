@@ -1,0 +1,386 @@
+{
+ "867090317269925898": {
+  "arma": 0,
+  "carro": 0,
+  "chicote": 0,
+  "djamba": 1,
+  "pinga": 0,
+  "viagra": 0,
+  "whey": 0
+ },
+ "548609156496752650": {
+  "arma": 0,
+  "carro": 1,
+  "chicote": 0,
+  "djamba": 0,
+  "pinga": 0,
+  "viagra": 0,
+  "whey": 0,
+  "galo": {
+   "name": "Sniper Cock",
+   "race": "galo_sniper",
+   "level": 9,
+   "hp": 1,
+   "attack": 4,
+   "defense": 1,
+   "speed": 6,
+   "owner": "548609156496752650",
+   "victories": 0,
+   "losses": 0,
+   "points": 4
+  }
+ },
+ "874660259732525086": {
+  "arma": 0,
+  "carro": 0,
+  "chicote": 1,
+  "djamba": 0,
+  "pinga": 0,
+  "viagra": 0,
+  "whey": 0,
+  "galo": {
+   "name": "Potente",
+   "race": "g.a.l.o",
+   "level": 9,
+   "hp": 3,
+   "attack": 5,
+   "defense": 3,
+   "speed": 3,
+   "owner": "874660259732525086",
+   "victories": 1,
+   "losses": 0,
+   "points": 4
+  }
+ },
+ "912812998903623690": {
+  "arma": 0,
+  "carro": 0,
+  "chicote": 0,
+  "djamba": 0,
+  "pinga": 0,
+  "viagra": 0,
+  "whey": 0,
+  "galo": {
+   "name": "Já",
+   "race": "g.a.l.o",
+   "level": 13,
+   "hp": 5,
+   "attack": 5,
+   "defense": 3,
+   "speed": 5,
+   "owner": "912812998903623690",
+   "victories": 2,
+   "losses": 0,
+   "points": 2
+  }
+ },
+ "939603332111171655": {
+  "arma": 0,
+  "carro": 0,
+  "djamba": 0,
+  "viagra": 0,
+  "whey": 0
+ },
+ "669975832600510465": {
+  "arma": 1,
+  "carro": 0,
+  "chicote": 0,
+  "djamba": 1,
+  "viagra": 0,
+  "pinga": 0,
+  "whey": 0,
+  "galo": {
+   "name": "Macaco",
+   "race": "gigante",
+   "level": 4,
+   "hp": 3,
+   "attack": 3,
+   "defense": 1,
+   "speed": 2,
+   "owner": "669975832600510465",
+   "victories": 0,
+   "losses": 0,
+   "points": 9
+  }
+ },
+ "390661505051525120": {
+  "arma": 0,
+  "carro": 0,
+  "chicote": 0,
+  "djamba": 0,
+  "pinga": 0,
+  "viagra": 0,
+  "whey": 0
+ },
+ "612375912020967452": {
+  "arma": 0,
+  "carro": 0,
+  "chicote": 0,
+  "djamba": 0,
+  "pinga": 0,
+  "viagra": 0,
+  "whey": 0
+ },
+ "690969883151826976": {
+  "arma": 0,
+  "carro": 0,
+  "chicote": 0,
+  "djamba": 0,
+  "pinga": 0,
+  "viagra": 0,
+  "whey": 0
+ },
+ "698709366463004693": {
+  "arma": 0,
+  "carro": 0,
+  "chicote": 0,
+  "djamba": 0,
+  "pinga": 0,
+  "viagra": 0,
+  "whey": 0
+ },
+ "703785252463837234": {
+  "arma": 0,
+  "carro": 0,
+  "chicote": 0,
+  "djamba": 0,
+  "pinga": 0,
+  "viagra": 0,
+  "whey": 0,
+  "galo": {
+   "name": "Carandiru",
+   "race": "galo_sniper",
+   "level": 2,
+   "hp": 1,
+   "attack": 1,
+   "defense": 1,
+   "speed": 2,
+   "owner": "703785252463837234",
+   "victories": 5,
+   "losses": 2,
+   "points": 11
+  }
+ },
+ "876286395348561951": {
+  "arma": 0,
+  "carro": 0,
+  "chicote": 0,
+  "djamba": 0,
+  "pinga": 0,
+  "viagra": 0,
+  "whey": 0,
+  "galo": {
+   "name": "Antônio",
+   "race": "conductor",
+   "level": 5,
+   "hp": 7,
+   "attack": 6,
+   "defense": 4,
+   "speed": 6,
+   "owner": "876286395348561951",
+   "victories": 0,
+   "losses": 0,
+   "points": 8
+  }
+ },
+ "883845905860677692": {
+  "arma": 0,
+  "carro": 0,
+  "chicote": 0,
+  "djamba": 0,
+  "pinga": 0,
+  "viagra": 0,
+  "whey": 0
+ },
+ "768125863949893643": {
+  "arma": 1,
+  "carro": 0,
+  "chicote": 1,
+  "djamba": 0,
+  "pinga": 0,
+  "viagra": 0,
+  "whey": 0,
+  "galo": {
+   "name": "Sebatista",
+   "race": "galinha_dangola",
+   "level": 2,
+   "hp": 1,
+   "attack": 2,
+   "defense": 3,
+   "speed": 1,
+   "owner": "768125863949893643",
+   "victories": 0,
+   "losses": 2,
+   "points": 11
+  }
+ },
+ "452875211507761163": {
+  "arma": 0,
+  "carro": 0,
+  "chicote": 0,
+  "djamba": 0,
+  "pinga": 0,
+  "viagra": 0,
+  "whey": 0,
+  "galo": {
+   "name": "Vergalhão",
+   "race": "the_cock",
+   "level": 7,
+   "hp": 6,
+   "attack": 3,
+   "defense": 2,
+   "speed": 1,
+   "owner": "452875211507761163",
+   "victories": 1,
+   "losses": 3,
+   "points": 6
+  }
+ },
+ "713505290951065656": {
+  "arma": 0,
+  "carro": 0,
+  "chicote": 0,
+  "djamba": 0,
+  "pinga": 0,
+  "viagra": 0,
+  "whey": 0
+ },
+ "606953777257250827": {
+  "arma": 0,
+  "carro": 0,
+  "chicote": 0,
+  "djamba": 0,
+  "pinga": 0,
+  "viagra": 0,
+  "whey": 0,
+  "galo": {
+   "name": "Big Black Cock",
+   "race": "galinha_dangola",
+   "level": 13,
+   "hp": 7,
+   "attack": 3,
+   "defense": 6,
+   "speed": 2,
+   "owner": "606953777257250827",
+   "victories": 0,
+   "losses": 2,
+   "points": 0
+  }
+ },
+ "782700800106692678": {
+  "arma": 0,
+  "carro": 0,
+  "chicote": 0,
+  "djamba": 0,
+  "pinga": 0,
+  "viagra": 0,
+  "whey": 0
+ },
+ "944970276045721690": {
+  "arma": 0,
+  "carro": 0,
+  "chicote": 0,
+  "djamba": 0,
+  "pinga": 0,
+  "viagra": 0,
+  "whey": 0
+ },
+ "567502481144152064": {
+  "arma": 0,
+  "carro": 0,
+  "chicote": 0,
+  "djamba": 0,
+  "pinga": 0,
+  "viagra": 0,
+  "whey": 0
+ },
+ "513552270269480961": {
+  "arma": 0,
+  "carro": 0,
+  "chicote": 0,
+  "djamba": 0,
+  "pinga": 0,
+  "viagra": 0,
+  "whey": 0
+ },
+ "858837824350322688": {
+  "arma": 0,
+  "carro": 0,
+  "chicote": 0,
+  "djamba": 0,
+  "pinga": 0,
+  "viagra": 0,
+  "whey": 0
+ },
+ "738503531170103396": {
+  "arma": 0,
+  "carro": 0,
+  "chicote": 0,
+  "djamba": 0,
+  "pinga": 0,
+  "viagra": 0,
+  "whey": 0
+ },
+ "793666550006939659": {
+  "arma": 0,
+  "carro": 0,
+  "chicote": 0,
+  "djamba": 0,
+  "pinga": 0,
+  "viagra": 0,
+  "whey": 0,
+  "galo": {
+   "name": "CEO DO SEXO",
+   "race": "galo_sniper",
+   "level": 5,
+   "hp": 2,
+   "attack": 1,
+   "defense": 1,
+   "speed": 4,
+   "owner": "793666550006939659",
+   "victories": 0,
+   "losses": 0,
+   "points": 8
+  }
+ },
+ "762477513020407808": {
+  "arma": 0,
+  "carro": 0,
+  "chicote": 0,
+  "djamba": 0,
+  "pinga": 1,
+  "viagra": 0,
+  "whey": 0,
+  "galo": {
+   "name": "Galo",
+   "race": "galo_sniper",
+   "level": 4,
+   "hp": 3,
+   "attack": 2,
+   "defense": 1,
+   "speed": 1,
+   "owner": "762477513020407808",
+   "victories": 0,
+   "losses": 0,
+   "points": 9
+  }
+ },
+ "925463807378194433": {
+  "arma": 0,
+  "carro": 0,
+  "chicote": 0,
+  "djamba": 0,
+  "pinga": 0,
+  "viagra": 0,
+  "whey": 0
+ },
+ "921574576553599008": {
+  "arma": 0,
+  "carro": 0,
+  "chicote": 0,
+  "djamba": 0,
+  "pinga": 0,
+  "viagra": 0,
+  "whey": 0
+ }
+}

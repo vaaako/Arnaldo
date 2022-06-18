@@ -1,0 +1,308 @@
+{
+	"language": "pt",
+	"guildCreate": {
+		"EMBED": {
+			"title": "Muito Obrigado por me adicionar! :)",
+			"description": "Para saber meus comandos digite `$PREFIXhelp` \nUse o comando `$PREFIXanun <channel>` para setar o canal em que eu irei enviar meus anúncios! \nSe nenhum canal for setado, eu irei mandar no primeiro canal que eu encontrar \nDê também uma olhada no Chat Universal (`$PREFIXhelp universal`), acho que você vai gostar ;) \nSe encontrar algum bug ou estiver tendo dificuldades, me mande com `$PREFIXreport mensagem` \n\n**Type `$PREFIXregion change` to change my language**"
+		}
+	},
+	"messageCreate": {
+		"adminOnly": "Você precisa ter permissão de administrador para poder usar esse comando!",
+		"banned": "Você está **banido** de usar qualquer comando pelo seguinte motivo: \n`$REASON` \nAcha que seu banimento foi injusto? User o comando `$PREFIXreport <report>`\nComo tu conseguiu ser banido de um bot do discord?",
+		"noPermissions": "Ops! Parece que não possuo todas as permissões necessários para executar meus comandos!",
+		"noCmd": "Está precisando de ajuda? \nPara ver todos os comandos digite `$PREFIXhelp`",
+		"nsfw": "Use esse comando em um canal NSFW apenas. Acho que você não quer levar ban né?",
+		"EMBED": {
+			"ERROR": {
+				"title": "Um erro ocorreu, desculpe por isso",
+				"description": "```$ERROR```",
+				"footer": "Contate me com o comando: $PREFIXreport <message>"
+			}
+		}
+	},
+	"bot": {
+		"about": {
+			"description": "Sobre eu :)",
+			"EMBED": {
+				"description": "Bom... o que posso dizer? Meu nome é **Arnaldo**. Eu nasci no dia 17 de abril de 2021. Meu pai é o **Vako** e minha mamãe é o **Shy Girl**."
+			}
+		},
+		"announcement": {
+			"description": "Setar um canal de anúncios. Quando eu tiver algum anúncio será enviado no canal setado",
+			"noChannel": "Você não tem um canal de anúncios ainda, sete um \nEx. `announcement <channel>`",
+			"seeChannel": "O canal de anúncios atual é",
+			"set": "é agora o canal de anúncios!"
+		},
+		"help": {
+			"description": "Mostra isso",
+			"noCmd": "Não encontrei nenhum comando chamado `$COMMAND`",
+			"EMBED": {
+				"cmd": {
+					"title": "Informações detalhadas sobre:",
+					"footer": "<> - Argumento obrigátorio \n[] - Argumento opcional"
+				},
+				"noCmd": {
+					"footer": "Para ver informações de um comando, digite $PREFIXhelp [command]"
+				}
+			}
+		},
+		"invite": {
+			"description": "Você faria isso? :)",
+			"EMBED": {
+				"title": "Me coloque no seu servidor :)",
+				"description": "Só precisa clicar nesse [link](https://discord.com/oauth2/authorize/?permissions=1514717707351&scope=bot&client_id=832998059334959134) ◄"
+			}
+		},
+		"ping": {
+			"description": "Quão rápido vou te responder"
+		},
+		"report": {
+			"description": "Problemas? Bugs? Não sabe como usar um comando? Me mande um a mensagem!",
+			"noReport": "Uai, você não escreveu o que está reportando",
+			"sent": "Report enviado!"
+		},
+		"universal": {
+			"description": "Setar o canal de Chat Universal. Qualquer mensagem enviada nesse chat será também enviada, de forma anônima, para outros servidores que possuem o Chat Universal ativado",
+			"noChannel": "Você não possui um Chat Universal ainda, sete com `universal <channel>`",
+			"seeChannel": "O canal atual do Chat Universal é",
+			"set": "é agora o canal de chat universal!",
+			"EMBED": {
+				"title": "Bem vindo ao Chat Universal",
+				"description": "Qualquer mensagem **enviada** aqui também será enviada para **outros servidores** que possuem o **Chat Universal** ativado. \n\n**Cuidado** com o que você vai digitar!",
+				"image": "https://imgur.com/AOXqL6c.png"
+			},
+			"join": "se juntou ao chat!"
+		},
+		"uptime": {
+			"description": "A quanto tempo estou acordado",
+			"EMBED": {
+				"footer": "Sem nenhum acidente de trabalho... por enquanto"
+			}
+		}
+	},
+	"fun": {
+		"ask": {
+			"description": "Faça uma pergunta que eu irei te responder. Fiz um curso online de vidente",
+			"answers": [
+				"Sim",
+				"Claro",
+				"Ainda tem dúvidas?",
+
+				"Não",
+				"De jeito nenhum",
+				"Definitivamente não",
+
+				"Talvez?",
+				"Não sei dizer",
+				"Ainda não está na hora de saber"
+			],
+			"noQuestion": "Não tem como eu responder se você não perguntar"
+		},
+		"gado": {
+			"description": "Qual a sua porcentagem gado?",
+			"noUser": "você",
+			"EMBED": {
+				"title": "Detector de gado :ox:",
+				"description": "$MEMBER é `$RAND%` gado :ox:",
+				"FIELD": {
+					"description": "Parece que encontramos o **Rei do Gado!**"
+				}
+			}
+		},
+		"gay": {
+			"description": "Vish",
+			"noUser": "você",
+			"EMBED": {
+				"title": "Detector de gay :gay_pride_flag:",
+				"description": "$MEMBER é `$RAND%` gay :gay_pride_flag:",
+				"FIELD": {
+					"title": "Parabéns",
+					"description": "Você é o **Gay MASTER!** :gay_pride_flag:"
+				}
+			}
+		},
+		"gostosa": {
+			"description": "Fiu fiu",
+			"noUser": "você",
+			"choices": {
+				"beautiful": "Fiu fiu gatinha",
+				"ugly": "Filhote de cruz-credo"
+			},
+			"EMBED": {
+				"title": "Detector de gostosa",
+				"description": "$MEMBER é `$RAND%` gostosa :heart_eyes_cat:"
+			}
+		},
+		"number": {
+			"description": "Um número aleatório de 1 a 99999",
+			"EMBED": {
+				"description": "Você tirou:"
+			}
+		},
+		"ppt": {
+			"description": "Se você ganhar de mim, seu prêmio será um incrivel nada!",
+			"EMBED": {
+				"DESCRIPTION": {
+					"win": "Você `ganhou`! :partying_face:",
+					"lose": "Você `perdeu`! :)",
+					"draw": "Deu `Empate`!"
+				}
+			}
+		},
+		"roll": {
+			"description": "Vamos jogar RPG",
+			"noArgs": "Por favor digite da forma correta",
+			"noSides": "Formatação errado \nEx. `$PREFIXroll 2d4`",
+			"isNaN": "Digite números, de preferência",
+			"tooBig": "Eu não possuo um dado de lados infinitos... Ainda",
+			"EMBED": {
+				"title": "Você tirou"
+			}
+		},
+		"ship": {
+			"description": "Quer ver se a relação vai dar certo?",
+			"noUser": "Marque alguém para que eu possa calcular o amor de vocês",
+			"EMBED": {
+				"title": "Calculadora do amor :two_hearts: \n$CALC% de amor"
+			}
+		}
+	},
+	"images": {
+		"achievement": {
+			"description": "Mostre ao mundo a sua conquista",
+			"default": "Conquista..conquistada!",
+			"tooBig": "Número máximo de caracteres: 25"
+		},
+		"dog": {
+			"description": "Cachorrinhos",
+			"EMBED": {
+				"title": "Au au au :dog:"
+			}
+		},
+		"cat": {
+			"description": "Gatinhos fofos",
+			"EMBED": {
+				"title": "Miau miau miau :cat:",
+				"footer": "Não, esse não sou eu"
+			}
+		},
+		"neko": {
+			"description": "Gatinhos diferentes",
+			"EMBED": {
+				"title": "Aqui está sua neko"
+			}
+		}
+	},
+	"info": {
+		"avatar": {
+			"description": "Quer ver sua linda foto de perfil?",
+			"noAvatar": "Mencione alguém ou use uma ID válida!",
+			"EMBED": {
+				"author": "• Avatar de"
+			}
+		},
+		"color": {
+			"description": "Qual sua cor favorita?",
+			"noHex": "Você precisa digitar o código HEX da cor. \nEx. `color CA1773`"
+		},
+		"emotes": {
+			"description": "Quer ver quantos emotes esse servidor tem?",
+			"EMBED": {
+				"author": "Emotes de",
+				"DESCRIPTION": {
+					"default": "Padrão",
+					"animated": "Animados"	
+				},
+				"footer": "• Emotes Totais"
+			}
+		},
+		"ip": {
+			"description": "Informações do IP digitado",
+			"noIP": "Digite um IP válido",
+			"EMBED": {
+				"DESCRIPTION": {
+					"internet": "**Internet:**",
+					"country": "**País:**",
+					"region": "**Estado:**",
+					"city": "**Cidade:**",
+					"zip": "**ZIP:**",
+					"lat": "**Latitude:**",
+					"lon": "**Longitude:**",
+					"timezone": "**Fuso horário:**"
+				}
+			}
+		},
+		"profile": {
+			"description": "Seu cartão de visitas \n\nPara mudar o background anexe uma imagem junto ao comando \nPara mudar pro background original, digite \"default\" no lugar da descrição",
+			"background": "Background trocada!",
+			"changed": "Descrição trocada!",
+			"default": "Eu sou furry UwU",
+			"noImage": "Envie um arquivo de imagem válido!"
+		}
+	},
+	"nsfw": {
+		"link": {
+			"description": "Um hentai aleatório do nhentai.net",
+			"EMBED": {
+				"title": "Divirta-se :smiley:"
+			}
+		},
+		"loli": {
+			"description": "...",
+			"EMBED": {
+				"title": "Vou ligar pro 190 seu otário :telephone_receiver:"
+			}
+		}
+	},
+	"text": {
+		"jojo": {
+			"description": null
+		},
+		"passeio": {
+			"description": "Informações do passeio do Arnaldo!",
+			"reply": "Passeio pau no seu rabo kkkkk"
+		},
+		"sorteio": {
+			"description": "Informações sobre sorteio",
+			"reply": "Sorteio pau no seu cu kkkkkkk"
+		}
+	},
+	"utils": {
+		"calc": {
+			"description": "Está com preguiça de ter que abrir a calculadora?",
+			"noOperation": "Acho que você esquceu de... Meio que... Digitar a operação",
+			"result": "Resultado:",
+			"invalid": "Quer fazer conta com coisas que não sejam `números` ou `operadores aritméticos`? Desculpa, apenas contas pro meu nível de inteligência \n\n`+` - Adição \n`-` - Subtração \n`*` ou `x` - Multiplicação \n`/` ou `÷` - Divisão"
+		},
+		"clear": {
+			"description": "Vamos limpar esse chat sujo!",
+			"noCount": "Por favor, digite a quantidade de mensagens para eu limpar!",
+			"tooBig": "Desculpa, o máximo que posso limpar são `100` mensagens",
+			"isNaN": "Não posso limpar `$DELETECOUNT` mensagens",
+			"EMBED": {
+				"description": "mensagens limpas:broom: \nPelas orgens de"
+			},
+			"error": "Não foi possível limpar essas mensagens \nTalvez elas tenham sido enviadas a muito tempo, o que me impede de remove-las :("
+		},
+		"notes": {
+			"description": "Anotações",
+			"noNotes": "Você não possui nenhuma nota",
+			"invalid": "Essa nota não existe",
+			"removed": "Nota removida com sucesso!",
+			"defaultNote": "Continuar sendo furry UwU",
+			"newNote": "Nota adicionada!",
+			"EMBED": {
+				"title": "Notas de"
+			}
+		},
+		"region": {
+			"description": "Troca a região do servidor",
+			"noReg": "A região atual atual é `$REGION`"
+		},
+		"translate": {
+			"description": "Um tradutor sem ter que sair do dsicord",
+			"noText": "Sem texto pra eu traduzir",
+			"translation": "De *$FROM* para *$TO*"
+		}
+	}
+}

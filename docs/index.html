@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+		<title>Documents | Arnaldo</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+
+
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="icon" href="assets/images/naldo.ico" /> <!-- Favicon -->
+	</head>
+	<body>
+		<div id="Categorys" class="box" style="display:block" >
+			<h1> Categories </h1>
+			<h4 style="font-weight:normal;"> Categorias dos comandos disponíveis </h4>
+
+			<a href="javascript:;" class="button" onclick="switchTab('Bot');"> Bot </a> <!-- 'javascript:;' -> Don't change URL -->
+			<a href="javascript:;" class="button" onclick="switchTab('Fun');"> Fun </a>
+			<a href="javascript:;" class="button" onclick="switchTab('Images');"> Images </a>
+			<a href="javascript:;" class="button" onclick="switchTab('Info');"> Info </a>
+			<a href="javascript:;" class="button" onclick="switchTab('NSFW');"> NSFW </a>
+			<a href="javascript:;" class="button" onclick="switchTab('Text');"> Text </a>
+			<a href="javascript:;" class="button" onclick="switchTab('Utils');"> Utils </a>
+
+			<footer>Beta 2.5</footer>
+		</div>
+
+
+		<!-- Bot -->
+		<div id="Bot" class="box" >
+			<h1>Bot</h1>
+
+			<p> <span class="com-name">]anun</span> Setar o canal de anúncios. Quando eu tiver algum anúncio será enviado no canal setado. Se não canal for setado eu irei enviar no primeiro que eu ver <br> <strong>Aliases: </strong> anuncio, announcement </p>
+			<p> <span class="com-name">]ping</span> Quão rápido posso te responder <br> <strong>Aliases: </strong> latency </p>
+			<p> <span class="com-name">]report</span> Problemas? Bugs? Não sabe como usar um comando? Me mande uma mensagem! <br> <strong>Aliases: </strong> bug, helpme </p>
+			<p> <span class="com-name">]universal</span> Setar o canal de Chat Universal. Qualquer mensagem enviada nesse chat será também enviada, de forma anônima, para outros servidores que possuem o Chat Universal ativado <br> <strong>Aliases: </strong> uni, universo </p>
+			<p> <span class="com-name">]uptime</span> A quanto tempo estou acordado </p>
+
+			<a href="javascript:;" class="button" onclick="switchTab('Categorys');"> Back </a>
+		</div>
+
+		<!-- Fun -->
+		<div id="Fun" class="box" style="top: 68%;" >
+			<h1>Fun</h1>
+
+
+			<p> <span class="com-name">]ask</span> Faça uma pergunta que eu irei te responder, fiz um curso online de vidente <br> <strong>Aliases: </strong> pergunta, perguntar <br> <strong>Usage: </strong> <i> ]ask &lt;pergunta&gt; </i> </p>
+			<p> <span class="com-name">]coin</span> Cara ou coroa? <br> <strong>Aliases: </strong> moeda </p>
+			<p> <span class="com-name">]gado</span> Vou medir sua porcentagem de gadisse <br> <strong>Usage: </strong> <i> ]gado &lt;user&gt; </i> </p>
+			<p> <span class="com-name">]gay</span> Sua porcentagem de gayzisse <br> <strong>Usage: </strong> <i> ]gay &lt;user&gt; </i>  </p>
+			<p> <span class="com-name">]gostosa</span> Fiu Fiu <br> <strong>Usage: </strong> <i> ]gostosa &lt;user&gt; </i> </p>
+			<p> <span class="com-name">]numero</span> Um número aleatório de 1 a 99999 <br> <strong>Aliases: </strong> num, number </p>
+			<p> <span class="com-name">]ppt</span> Se você ganhar de mim, seu prêmio será um incrivel nada! <br> <strong>Aliases: </strong> rpc, jkp</p>
+			<p> <span class="com-name">]roll</span> Vamos jogar RPG <br> <strong>Aliases: </strong> dado <br> <strong>Usage: </strong> <i> ]roll [quant.]d&lt;faces&gt; </i> </p>
+			<p> <span class="com-name">]ship</span> Quer ver se a relação vai dar certo? <br> <strong>Aliases: </strong> love <br> <strong>Usage: </strong> <i> ]ship &lt;user&gt; </i> </p>
+
+
+			<a href="javascript:;" class="button" onclick="switchTab('Categorys');"> Back </a>
+		</div>
+
+		<!-- Images -->
+		<div id="Images" class="box" >
+			<h1>Images</h1>
+
+			<p> <span class="com-name">]achievement</span> Mostre ao mundo a sua conquista <br> <strong>Aliases: </strong> ach, conquista, conq <br> <strong>Usage: </strong> <i> ]achievement &lt;conq.&gt; </i> </p>
+			<p> <span class="com-name">]chorro</span> Cachorrinhos <br> <strong>Aliases: </strong> cachorro, dog </p>
+			<p> <span class="com-name">]gato</span> Gatinhos fofos <br> <strong>Aliases: </strong> cat </p>
+			<p> <span class="com-name">]neko</span> Gatinhos diferentes </p>
+
+			<a href="javascript:;" class="button" onclick="switchTab('Categorys');"> Back </a>
+		</div>
+
+
+		<!-- Info -->
+		<div id="Info" class="box" >
+			<h1>Info</h1>
+
+			<p> <span class="com-name">]emojis</span> Contagem dos emojis no servidor <br> <strong>Aliases: </strong> emoji </p>
+			<p> <span class="com-name">]ip</span> Informações do IP digitado <br> <strong>Usage: </strong> <i> ]ip &lt;ip&gt; </i>  </p>
+			<p> <span class="com-name">]profile</span> Seu cartão de visitas (Anexe uma imagem 800x400 ao comando para mudar o background) <br> <strong>Aliases: </strong> card <br> <strong>Usage: </strong> <i> ]profile [description | "default"] </i> </p>
+			
+
+			<a href="javascript:;" class="button" onclick="switchTab('Categorys');"> Back </a>
+		</div>
+
+
+		<!-- NSFW -->
+		<div id="NSFW" class="box" >
+			<h1>NSFW</h1>
+
+
+			<p> <span class="com-name">]link</span> Um link aleatório do <a style="text-decoration: none;" href="https://nhentai.net" target="_blank">Nhentai</a> </p>
+			<p> <span class="com-name">]loli</span> Não. </p>
+
+
+			<a href="javascript:;" class="button" onclick="switchTab('Categorys');"> Back </a>
+		</div>
+
+
+		<!-- Text -->
+		<div id="Text" class="box" >
+			<h1>Text</h1>
+
+			<p> <span class="com-name">]jojo</span> WRRYYYYYY </p>
+			<p> <span class="com-name">]passeio</span> Informações do passeio do Arnaldo! </p>
+			<p> <span class="com-name">]sorteio</span> Informações sobre o sorteio! </p>
+
+			<a href="javascript:;" class="button" onclick="switchTab('Categorys');"> Back </a>
+		</div>
+
+		<!-- Utils -->
+		<div id="Utils" class="box" style="top: 52%;" >
+			<h1>Utils</h1>
+
+			<p> <span class="com-name">]avatar</span> Quer ver sua linda foto de perfil? <br> <strong>Aliases: </strong> foto, photo <br> <strong>Usage: </strong> <i> ]avatar [user] </i> </p>
+			<p> <span class="com-name">]calc</span> Está com preguiça de abrir a calculadora? <br> <strong>Aliases: </strong> calculadora, calculator <br> <strong>Usage: </strong> <i> ]calc &lt;operação&gt; </i> </p>
+			<p> <span class="com-name">]clear</span> Limpa mensagens do chat <br> <strong>Usage: </strong> <i> ]clear &lt;num&gt; </i> </p>
+			<p> <span class="com-name">]color</span> Procure por uma cor <br> <strong>Aliases: </strong> colour, cor <br> <strong>Usage: </strong> <i> ]color &lt;hex&gt; </i> </p>
+			<p> <span class="com-name">]note</span> Anotações <br> <strong>Aliases: </strong> nota, notas, notes <br> <strong>Usage: </strong> <i> note [nota | remove] [N°] </i> </p>
+			<p> <span class="com-name">]translate</span> Tradutor sem sair do discord" <br> <strong>Aliases: </strong> trans, traduzir, trad <br> <strong>Usage: </strong> <i> ]translate &lt;text&gt; </i> </p>
+
+
+
+			<a href="javascript:;" class="button" onclick="switchTab('Categorys');"> Back </a>
+		</div>
+	</body>
+
+	<script type="text/javascript">
+		// Not my code
+		function switchTab(tabID) {
+			var i, tab;
+			tab = document.getElementsByClassName("box");
+			for (i = 0; i < tab.length; i++) {
+				tab[i].style.display = "none";
+			};
+			document.getElementById(tabID).style.display = "block";
+		};
+	</script>
+</html>
+

@@ -1,0 +1,26 @@
+{
+  "judeu": {
+    "formated": "Judeu",
+    "value": 0.25
+  },
+  "ado_fum": {
+    "formated": "Adolescente Fumante",
+    "value": 0.50
+  },
+  "chines": {
+    "formated": "Chinês",
+    "value": 1.00
+  },
+  "anao": {
+    "formated": "Anão",
+    "value": 1.50
+  },
+  "egirl": {
+    "formated": "E-Girl",
+    "value": 2.50
+  },
+  "venezuelano": {
+    "formated": "Venezuelano",
+    "value": 5.00
+  }
+}

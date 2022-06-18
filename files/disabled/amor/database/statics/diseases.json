@@ -1,0 +1,36 @@
+{
+  "Normal": [
+    "Saudável"
+  ],
+  "Raro": [
+    "Rubéola",
+    "Variola",
+    "Cirrose",
+    "Caxumba",
+    "Diabetes",
+    "Daltonismo",
+    "Conjuntivite",
+
+    "Feminista",
+    "Nazista",
+    "Incestuoso",
+    "Judeu",
+    "Gay"
+  ],
+  "Mítico": [
+    "Lepra",
+    "Autismo",
+    "Vitiligo",
+    "Peste negra",
+    "Leptospirose",
+    "Esquizofrenia",
+    "Síndrome de down",
+
+    "Pedófilo",
+    "Necrófilo"
+  ],
+  "Lendário": [
+    "AIDS",
+    "Câncer de pulmão"
+  ]
+}

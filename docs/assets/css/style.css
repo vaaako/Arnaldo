@@ -1,0 +1,63 @@
+body {
+	background-image: url("../images/background.jpeg");
+}
+
+.box {
+	/* Size */
+	width: 300px;
+	/* height: 500px; */
+	height: auto;
+	
+	/* Text */
+	font-family: Arial;
+	color: whitesmoke;
+	text-align: center;
+
+	/* Box  */
+	box-shadow: 0px 0px 10px 4px #000;
+	background: rgba(0, 0, 0, 0.6);
+
+	/* Magin */
+	padding: 20px;
+	border-radius: 25px;
+	margin: 20px auto; 	/* Center using margin left and right auto*/
+
+	/* Tab */
+	position: absolute;
+	display: none;
+	top: 45%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+
+}
+
+.button {
+	/* Text  */
+	font-size: 15px;
+	color: rgb(224, 224, 224);
+	text-decoration: none;
+
+	/* Border  */
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+	border: 2px solid rgb(255, 0, 102, 0.6);
+
+	/* Margin  */
+	display: block; /* Line break  */
+	padding-top: 7px;
+	padding-bottom: 7px;
+
+	margin-bottom: 5%;
+}
+
+.button:hover {
+	border-color: rgb(255, 0, 102);
+}
+
+/* Text with gray background */
+.com-name {
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+	padding: 10px;
+	/* margin-bottom: 5%; */
+}

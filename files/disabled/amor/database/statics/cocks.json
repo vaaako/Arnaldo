@@ -1,0 +1,61 @@
+{
+    "modifiers": {
+        "gigante": [2, 0, 0, 0],
+        "galinha_dangola": [0, 0, 2, 0],
+        "galize": [0, 1, 0, 1],
+        "sedosa": [1, 0, 0, 1],
+        "galo_sniper": [0, 0, 0, 0],
+        "g.a.l.o": [0, 2, 0, 0],
+        "the_cock": [1, 0, 1, 0],
+        "spy": [0, 0, 0, 2]
+    },
+
+    "names": {
+        "gigante": "Gigante",
+        "galinha_dangola": "Galinha Dangola",
+        "galize": "Galizé",
+        "sedosa": "Sedosa",
+        "galo_sniper": "Galo Sniper",
+        "g.a.l.o": "G.A.L.O",
+        "the_cock": "The Cock",
+        "spy": "SPY"
+    },
+
+    "images": {
+        "gigante": "https://imgur.com/84oVoGk.jpeg",
+        "galinha_dangola": "https://imgur.com/JxmFw3A.jpeg",
+        "galize": "https://imgur.com/coPhdzw.jpeg",
+        "sedosa": "https://imgur.com/JMVnDGy.jpeg",
+        "galo_sniper": "https://imgur.com/lyVsnhL.jpeg",
+        "g.a.l.o": "https://imgur.com/N9ngy4a.jpeg",
+        "the_cock": "https://imgur.com/ztON9EB.jpeg",
+        "spy": "https://imgur.com/hBiQrtM.jpeg",
+
+        "conductor": "https://imgur.com/P2wHPaV.jpeg"
+    },
+
+    "modifiers_formated": {
+        "gigante": "+2 HP",
+        "galinha_dangola": "+2 DEF",
+        "galize": "+1 ATK, +1 SPE",
+        "sedosa": "+1 HP, SPE",
+        "galo_sniper": "+Chances de crítico",
+        "g.a.l.o": "+2 ATK",
+        "the_cock": "+1 HP, +1 DEF",
+        "spy": "+2 SPE"
+    },
+
+    "long_names": {
+        "gigante": "Índio Gigante",
+        "galinha_dangola": "Galinha Dangola",
+        "galize": "Galizé vulgo galo rebaixado",
+        "sedosa": "Sedosa Cremosa",
+        "galo_sniper": "Galo Sniper",
+        "g.a.l.o": "G.A.L.O - Galinha Automatizada Liquitificadora de Oponentes",
+        "the_cock": "The Cock",
+        "spy": "SPY",
+
+        "conductor": "The Conductor"
+    }
+
+}

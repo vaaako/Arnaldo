@@ -1,0 +1,308 @@
+{
+	"language": "en",
+	"guildCreate": {
+		"EMBED": {
+			"title": "Thank you so much for adding me to your server! :)",
+			"description": "To see my commands type `$PREFIXhelp` \nType `$PREFIXanun <channel>` to set an announcement channel! \nIf no channel has been set, I will send announcements on the first channel I find. \nTake a look on the Universal Chat (`$PREFIXhelp universal`), I think you will like it ;) \nIf you find any translation error, send me with `$PREFIXreport messsage` \n\n**Use `$PREFIXregion change` para mudar meu idioma**"
+		}
+	},
+	"messageCreate": {
+		"adminOnly": "You need admin permission to use this command!",
+		"banned": "Você está **banido** de usar qualquer comando pelo seguinte motivo: \n`$REASON` \nAcha que seu banimento foi injusto? User o comando `$PREFIXreport <report>`\nComo tu conseguiu ser banido de um bot do discord?",
+		"noPermissions": "Ops! Looks like I don't have enough permissions to execute my commands!",
+		"noCmd": "Need help? \nType `$PREFIXhelp` to see all my commands categorys",
+		"nsfw": "Use this command in a NSFW channel only. I think you don't want be banned",
+		"EMBED": {
+			"ERROR": {
+				"title": "An error ocurred, sorry for that",
+				"description": "```$ERROR```",
+				"footer": "Contact me with: $PREFIXreport <message>"
+			}
+		}
+	},
+	"bot": {
+		"about": {
+			"description": "About me :)",
+			"EMBED": {
+				"description": "Well... what can I say? My name is **Arnaldo** (something like \"Arnald\"). I was born on the 17th of April 2021. My father is **Vako** and my mummy is **Shy Girl**."
+			}
+		},
+		"announcement": {
+			"description": "Sets an announcement channel. Announcements will be sent to this channel",
+			"noChannel": "You don't have a announcement channel yet, set one \nE.g. `announcement <channel>`",
+			"showChannel": "The current announcement channel is",
+			"set": "is now the announcement channel!"
+		},
+		"help": {
+			"description": "Show this",
+			"noCmd": "I didn't find any command with that name `$COMMAND`",
+			"EMBED": {
+				"cmd": {
+					"title": "Detailed Information about:",
+					"footer": "<> - Obrigatory Argument \n[] - Optional Argument"
+				},
+				"noCmd": {
+					"footer": "To see a command information, type $PREFIXhelp [command]"
+				}
+			}
+		},
+		"invite": {
+			"description": "Would you do it? :)",
+			"EMBED": {
+				"title": "Send me to your server :)",
+				"description": "You just need to click on that [link](https://discord.com/oauth2/authorize/?permissions=1514717707351&scope=bot&client_id=832998059334959134) ◄"
+			}
+		},
+		"ping": {
+			"description": "Iformation of how fast I can send messages"
+		},
+		"report": {
+			"description": "Problems? Bugs? You don't know how to use some command? Send me a message!",
+			"noReport": "Uhhh, you don't typed your report",
+			"sent": "Report sent!"
+		},
+		"universal": {
+			"description": "Sets a channel to be the Universal Chat. Any message sent is this channel also will be sent (anonymously) to others servers with Universal Chat activated",
+			"noChannel": "You don't have a Universal Chat yet, set with `universal <channel>`",
+			"seeChannel": "The current Universal Chat's channel is",
+			"set": "is now the Universal Chat",
+			"EMBED": {
+				"title": "Welcome to the Universal Chat",
+				"description": "Any message **sent** here will be also sent to **other servers** with the **Universal Chat** activated. \n\n**Be careful** with what you gonna say!",
+				"image": "https://imgur.com/AOXqL6c.png"
+			},
+			"join": "joined the chat!"
+		},
+		"uptime": {
+			"description": "How long have I been awake",
+			"EMBED": {
+				"footer": "No work accidents... yet"
+			}
+		}
+	},
+	"fun": {
+		"ask": {
+			"description": "Ask me something and I'll answer. I took an seer online course",
+			"answers": [
+				"Yes",
+				"Of course",
+				"Still have doubts??",
+
+				"No",
+				"I don't think so",
+				"No way",
+
+				"Maybe",
+				"I don't know",
+				"It's not time to know"
+			],
+			"noQuestion": "I cannot reply you if you don't make a question"
+		},
+		"gado": {
+			"description": "What's your simp percentage?",
+			"noUser": "you",
+			"EMBED": {
+				"title": "Simp detector :ox:",
+				"description": "$MEMBER is `$RAND%` simp :ox:",
+				"FIELD": {
+					"description": "Looks like we found the **Simp King!**"
+				}
+			}
+		},
+		"gay": {
+			"description": "Hmmm",
+			"noUser": "you",
+			"EMBED": {
+				"title": "Gay detector :gay_pride_flag:",
+				"description": "$MEMBER is `$RAND%` gay :gay_pride_flag:",
+				"FIELD": {
+					"title": "Congratulations",
+					"description": "You're the **Gay MASTER!** :gay_pride_flag:"
+				}
+			}
+		},
+		"gostosa": {
+			"description": "*whistle*",
+			"noUser": "you",
+			"choices": {
+				"beautiful": "Hey! You're so hot!",
+				"ugly": "Hello beetlejuice"
+			},
+			"EMBED": {
+				"title": "Sexy detector",
+				"description": "$MEMBER is `$RAND%` sexy :heart_eyes_cat:"
+			}
+		},
+		"number": {
+			"description": "Random number between 1 and 99999",
+			"EMBED": {
+				"description": "You get:"
+			}
+		},
+		"ppt": {
+			"description": "If beat me, you will get an amazing nothing!",
+			"EMBED": {
+				"DESCRIPTION": {
+					"win": "You `WON`! :partying_face:",
+					"lose": "You `LOSE`! :)",
+					"draw": "It's a `DRAW`!"
+				}
+			}
+		},
+		"roll": {
+			"description": "Let's play RPG",
+			"noArgs": "Please type in the right way",
+			"noSides": "Invalid formatation. \nE.g. `$PREFIXroll 2d4`",
+			"isNaN": "Type numbers... Please",
+			"tooBig": "I don't have an infinty sides dice... yet",
+			"EMBED": {
+				"title": "You took"
+			}
+		},
+		"ship": {
+			"description": "Do you wanna know if the relationship will work?",
+			"noUser": "Ping someone to calculate your love",
+			"EMBED": {
+				"title": "Love calculator :two_hearts: \n$CALC% of love"
+			}
+		}
+	},
+	"images": {
+		"achievement": {
+			"description": "Show the world your achievement",
+			"default": "Achievement..Got..it!",
+			"tooBig": "Max number of characters: 25"
+		},
+		"dog": {
+			"description": "Puppies",
+			"EMBED": {
+				"title": "Woof woof :dog:"
+			}
+		},
+		"cat": {
+			"description": "Kitties fofos",
+			"EMBED": {
+				"title": "Meow Meow :cat:",
+				"footer": "No, this is not me"
+			}
+		},
+		"neko": {
+			"description": "Stange cats",
+			"EMBED": {
+				"title": "Here is your neko"
+			}
+		}
+	},
+	"info": {
+		"avatar": {
+			"description": "Show your awesome profile picture to the world",
+			"noAvatar": "Ping someone or use a valid ID!",
+			"EMBED": {
+				"author": "• Avatar of"
+			}
+		},
+		"color": {
+			"description": "What's your favorite color?",
+			"noHex": "You nedd to type the color HEX code. \nE.g. `color CA1773`"
+		},
+		"emotes": {
+			"description": "Do you want to know how many emojis this server has?",
+			"EMBED": {
+				"author": "Emojis of",
+				"DESCRIPTION": {
+					"default": "Padrão",
+					"animated": "Animated"
+				},
+				"footer": "• Total emotes"
+			}
+		},
+		"ip": {
+			"description": "Typed IP informations",
+			"noIP": "Type a valid IP",
+			"EMBED": {
+				"DESCRIPTION": {
+					"internet": "**Internet:**",
+					"country": "**Country:**",
+					"region": "**Region:**",
+					"city": "**City:**",
+					"zip": "**ZIP:**",
+					"lat": "**Latitude:**",
+					"lon": "**Longitude:**",
+					"timezone": "**Timezone:**"
+				}
+			}
+		},
+		"profile": {
+			"description": "Your card \n\nTo change the background attach an image \nTo change to the default background, type \"default\" in place of the description",
+			"default": "I'm furry UwU",
+			"background": "Background changed!",
+			"changed": "Description changed!",
+			"noImage": "Send a valid image file!"
+		}
+	},
+	"nsfw": {
+		"link": {
+			"description": "Random hentai from nhentai.net",
+			"EMBED": {
+				"title": "Have fun :smiley:"
+			}
+		},
+		"loli": {
+			"description": "...",
+			"EMBED": {
+				"title": "I will call 911 you idiot :telephone_receiver:"
+			}
+		}
+	},
+	"text": {
+		"jojo": {
+			"description": null
+		},
+		"passeio": {
+			"description": "Penny's Trading information",
+			"reply": "Penny trading your mom lmao"
+		},
+		"sorteio": {
+			"description": "Candice's information",
+			"reply": "Candice dick fit in yo mouth? lmao"
+		}
+	},
+	"utils": {
+		"calc": {
+			"description": "Too lazy to open the calculator?",
+			"noOperation": "I think you.. Forgot to uhh... type the operation",
+			"result": "Result:",
+			"invalid": "I don't have the IQ to do math that doesn't have `numbers` or `arithmetic operators` \n\n`+` - Addition \n`-` - Subtraction \n`*` or `x` - Multiplication \n`/` ou `÷` - Division"
+		},
+		"clear": {
+			"description": "Let's clean this dirty chat!",
+			"noCount": "Please, type how many messages I need to clean",
+			"tooBig": "Sorry, The most I can clean is `100` messages",
+			"isNaN": "I can't delete `$DELETECOUNT` messages",
+			"EMBED": {
+				"description": "Cleaned messages :broom: \nBy the orders of"
+			},
+			"error": "Unable to clear that messages \nMaybe the messages are too old, what makes it impossible for me to delete them :("
+		},
+		"notes": {
+			"description": "Anotations",
+			"noNotes": "You don't have any notes",
+			"invalid": "This note doesn't exist",
+			"removed": "Note removed!",
+			"defaultNote": "Keep being furry UwU",
+			"newNote": "Added note!",
+			"EMBED": {
+				"title": "Notes of"
+			}
+		},
+		"region": {
+			"description": "Troca a região do servidor",
+			"noReg": "The server current region is `$REGION`"
+		},
+		"translate": {
+			"description": "A translater without leaving discord",
+			"noText": "No text to translate",
+			"translation": "From *$FROM* to *$TO*"
+		}
+	}
+}
