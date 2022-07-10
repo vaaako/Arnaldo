@@ -32,7 +32,7 @@ module.exports = {
 
 		let embed = new MessageEmbed()
 			.setTitle(values['query'])
-			.setDescription(`${LANGUAGE.EMBED.DESCRIPTION.internet} \`${values['isp']}\` \n${LANGUAGE.EMBED.DESCRIPTION.country} \`${values['country']}\` \n${LANGUAGE.EMBED.DESCRIPTION.region}  \`${values['region']}\` \n${LANGUAGE.EMBED.DESCRIPTION.city} \`${values['city']}\` \n${LANGUAGE.EMBED.DESCRIPTION.zip} \` ${values['zip']}\` \n${LANGUAGE.EMBED.DESCRIPTION.lat} \`${values['lat']}\` \n${LANGUAGE.EMBED.DESCRIPTION.lon} \`${values['lon']}\` \n${LANGUAGE.EMBED.DESCRIPTION.timezone} \`${values['timezone']}\` \n`)
+			.setDescription(`${LANGUAGE.EMBED.DESCRIPTION.internet} \`${values['isp']}\` \n${LANGUAGE.EMBED.DESCRIPTION.country} \`${values['country']}\` \n${LANGUAGE.EMBED.DESCRIPTION.region}  \`${values['region']}\` \n${LANGUAGE.EMBED.DESCRIPTION.city} \`${values['city']}\` \n${LANGUAGE.EMBED.DESCRIPTION.zip} \`${values['zip']}\` \n${LANGUAGE.EMBED.DESCRIPTION.lat} \`${values['lat']}\` \n${LANGUAGE.EMBED.DESCRIPTION.lon} \`${values['lon']}\` \n${LANGUAGE.EMBED.DESCRIPTION.timezone} \`${values['timezone']}\` \n`)
 			.setFooter({ text: `Powered by ip-api` })
 			.setColor(ee.color);
 		message.channel.send({ embeds: [embed] });

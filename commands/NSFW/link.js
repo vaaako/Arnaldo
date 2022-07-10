@@ -8,6 +8,7 @@ module.exports = {
 	category: "NSFW",
 	aliases: [],
 	usage: "link",
+	nsfw: true,
 	run: async (client, message) => {
 		const LANGUAGE = langHandler(message).nsfw.link;
 		let link = Math.floor(Math.random() * 371990 + 1) // 1 - num

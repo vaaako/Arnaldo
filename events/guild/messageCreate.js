@@ -3,7 +3,7 @@ const ee = require('../../config/embed.json');
 
 const { whitelistCheck, blacklistCheck } = require("../../files/scripts/memberlist-check.js");
 const { langHandler } = require('../../files/translations/langHandler.js');
-const { prefix } = require("../../config/config.js"); // loading config file with token and prefix, and settings
+const { prefix, NECESSARY_PERMISSIONS } = require("../../config/config.js"); // loading config file with token and prefix, and settings
 
 
 function escapeRegex(str) { // Loading all needed functions
@@ -104,35 +104,13 @@ module.exports = async (client, message) => {
 
 	// If the command is now valid
 	if(command) {
-		// Check Necessary permissions
-		if(!message.channel.permissionsFor(client.user.id).has([
-			// GENERAL PERMISSIONS
-			'MANAGE_CHANNELS',
-			'KICK_MEMBERS',
-			'BAN_MEMBERS',
-			'CREATE_INSTANT_INVITE',
-			'CHANGE_NICKNAME',
-			'MANAGE_NICKNAMES',
-			'MANAGE_WEBHOOKS',
-			'VIEW_CHANNEL',
-
-			// TEXT PERMISSIONS
-			'SEND_MESSAGES',
-			'SEND_MESSAGES_IN_THREADS',
-			'SEND_TTS_MESSAGES',
-			'MANAGE_MESSAGES',
-			'EMBED_LINKS',
-			'ATTACH_FILES',
-			'READ_MESSAGE_HISTORY',
-			'USE_EXTERNAL_EMOJIS',
-			'USE_EXTERNAL_STICKERS',
-			'ADD_REACTIONS',
-			'USE_APPLICATION_COMMANDS',
-
-			// VOICE PERMISSIONS
-			'CONNECT',
-			'SPEAK'
-		])) return message.channel.send(LANGUAGE.noPermissions);
+		
+		for(let i=0; i<NECESSARY_PERMISSIONS.length; i++)  {
+			let current = NECESSARY_PERMISSIONS[i];
+			// Check Necessary permissions
+			if(!message.channel.permissionsFor(client.user.id).has(current))
+				return message.channel.send(LANGUAGE.noPermissions.replace('$PERM', current));
+		}
 
 		// Check if user is banned again
 		if(blacklistCheck(message.author.id)) // Check if user is banned
@@ -190,7 +168,7 @@ module.exports = async (client, message) => {
 
 			let dev = require("../../files/database/statics/dev.json");
 			client.channels.cache.get(dev['error-channel']).send({ embeds: [ new MessageEmbed()
-				.setDescription(`Error on **${message.guild.name}** (\`${message.guild.id}\`) \nCommand name: **${command.name}** \n\`\`\` ${err} \`\`\` `).setTimestamp().setColor(ee.wrongcolor) ] })
+				.setDescription(`Error on **${message.guild.name}** (\`${message.guild.id}\`) \nCommand's name: **${command.name}** \n\`\`\` ${err} \`\`\` `).setTimestamp().setColor(ee.wrongcolor) ] })
 
 		});
 	}

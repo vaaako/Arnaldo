@@ -9,7 +9,7 @@
 	"messageCreate": {
 		"adminOnly": "Você precisa ter permissão de administrador para poder usar esse comando!",
 		"banned": "Você está **banido** de usar qualquer comando pelo seguinte \nMotivo: `$REASON` \n\nAcha que seu banimento foi injusto? Use o comando `$PREFIXreport <report>`",
-		"noPermissions": "Ops! Parece que não possuo todas as permissões necessários para executar meus comandos!",
+		"noPermissions": "Parece que eu não possuo a permissão `$PERM` para executar meus comandos!",
 		"noCmd": "Está precisando de ajuda? \nPara ver todos os comandos digite `$PREFIXhelp`",
 		"nsfw": "Use esse comando em um canal NSFW apenas. Acho que você não quer levar ban né?",
 		"EMBED": {
@@ -50,7 +50,7 @@
 			"description": "Você faria isso? :)",
 			"EMBED": {
 				"title": "Me coloque no seu servidor :)",
-				"description": "Só precisa clicar nesse [link](https://discord.com/oauth2/authorize/?permissions=1514717707351&scope=bot&client_id=832998059334959134) ◄"
+				"description": "Só precisa clicar nesse"
 			}
 		},
 		"ping": {
@@ -255,6 +255,10 @@
 		}
 	},
 	"text": {
+		"cowsay": {
+			"description": "Muu muu",
+			"noMoo": "Sem Muu muu"
+		},
 		"jojo": {
 			"description": null
 		},
@@ -292,7 +296,7 @@
 			"defaultNote": "Continuar sendo furry UwU",
 			"newNote": "Nota adicionada!",
 			"EMBED": {
-				"title": "Notas de"
+				"title": "Notas"
 			}
 		},
 		"region": {
@@ -300,9 +304,13 @@
 			"noReg": "A região atual atual é `$REGION`"
 		},
 		"translate": {
-			"description": "Um tradutor sem ter que sair do dsicord",
-			"noText": "Sem texto pra eu traduzir",
+			"description": "Um tradutor sem ter que sair do discord",
+			"noText": "Use o comando desse jeito: `trans <para> <texto>`",
 			"translation": "De *$FROM* para *$TO*"
+		},
+		"wikipedia": {
+			"description": "Wikipedia dentro do discord",
+			"noResults": "Nenhum resultado encontrado"
 		}
 	}
 }

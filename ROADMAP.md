@@ -7,6 +7,7 @@ X Hide Administrtion Category from help command
 X Translate guildCreate and guildDelete
 X New help command
 X Multi language help command
+- Change prefix command
 
 ## WEBSITE
 - Make that thing in the site (I lost the original file with "that thing" and some other things, I'm very sad with this)

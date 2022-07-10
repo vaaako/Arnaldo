@@ -19,7 +19,7 @@ module.exports = {
 			const cmd = client.commands.get(search) || client.commands.get(client.aliases.get(search));
 
 			if(!cmd) // Command not found
-				message.reply(LANGUAGE.noCmd.replace('$COMMAND', search));
+				return message.reply(LANGUAGE.noCmd.replace('$COMMAND', search));
 
 			const embed = new MessageEmbed().setColor(ee.color);
 

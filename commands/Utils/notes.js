@@ -20,14 +20,16 @@ module.exports = {
 
 		if(!args[0]) {
 			let embed = new MessageEmbed()
-				.setTitle(`${LANGUAGE.EMBED.title} ${message.author.username}`)
+				.setTitle(`${message.author.username}${LANGUAGE.EMBED.title}`)
 				.setColor(ee.color)
 			
 			// Verify if the user has notes
 			let length = obj[id]['notes'].length;
+			var notes = "";
 			if(length>0) {
 				for(let i=0; i<obj[id]['notes'].length; i++)
-					embed.addField('\u200B', `${i+1}. ${obj[id]['notes'][i]}`);
+					notes+=`**${i+1}.** ${obj[id]['notes'][i]}\n`;
+				embed.setDescription(notes);
 			} else {
 				embed.addField(LANGUAGE.noNotes, '\u200B');
 			}

@@ -25,7 +25,7 @@ module.exports = async (client, guild) => {
 		.setDescription(LANGUAGE.EMBED.description.replaceAll('$PREFIX', prefix))
 		.setColor(ee.color)
 		.setTimestamp();
-	channel.send({ embeds: [embed] });
+	channel.send({ embeds: [embed] }).catch(() => console.log("Imposible to send Welcome Message"))
 
 	// For me
 	return client.channels.cache.get(dev['event-channel'])

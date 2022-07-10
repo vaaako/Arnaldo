@@ -22,7 +22,6 @@ module.exports = {
 			return message.reply(LANGUAGE.isNaN).replace('$DELETECOUNT', deleteCount);
 
 		let embed = new MessageEmbed()
-			.setTitle("\n")
 			.setDescription(`\`${deleteCount}\` ${LANGUAGE.EMBED.description} ${message.author}`)
 			.setColor(ee.color);
 

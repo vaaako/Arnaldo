@@ -36,20 +36,20 @@ module.exports = {
 		}
 
 		const user = id;
-		const keys = Object.keys(timeoutArray); // aka pegar o users no array
+		const keys = Object.keys(timeoutArray); // Get user in array
 
-		if(keys.includes(user)) { // Caso já esteja no array
-			if(timeoutArray[user].includes(command)) { // Checar se comando está no obj do user (aka em timeout em tal comando)
+		if(keys.includes(user)) { // If is in array
+			if(timeoutArray[user].includes(command)) { // Check if user is in timeout of that command
 				return true;
 			}
 		} else {
-			timeoutArray[user] = []; // Caso user não tenha obj no array
+			timeoutArray[user] = []; // In case of user isn't in the array
 		}
 
-		timeoutArray[user].push(command) // Adicionar nome do comand ao obj
+		timeoutArray[user].push(command) // Add command timeout to user
 		setTimeout(() => {
 			message.channel.send(text); 
-			timeoutArray[user].splice(timeoutArray[user].indexOf(command)); // Retirar timeout
+			timeoutArray[user].splice(timeoutArray[user].indexOf(command)); // Remove timeout
 		}, delay);
 		console.log(timeoutArray);
 

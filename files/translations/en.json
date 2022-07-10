@@ -8,9 +8,8 @@
 	},
 	"messageCreate": {
 		"adminOnly": "You need admin permission to use this command!",
-		"banned": "Você está **banido** de usar qualquer comando pelo seguinte motivo: \n`$REASON` \n\nFor ban appel, type `$PREFIXreport <report>`",
 		"banned": "You're **banned** from using any command \nReason: `$REASON` \n\nAcha que seu banimento foi injusto? User o comando `$PREFIXreport <report>`\nComo tu conseguiu ser banido de um bot do discord?",
-		"noPermissions": "Ops! Looks like I don't have enough permissions to execute my commands!",
+		"noPermissions": "Looks like I don't have the `$PERM` permission to execute my commands!",
 		"noCmd": "Need help? \nType `$PREFIXhelp` to see all my commands categorys",
 		"nsfw": "Use this command in a NSFW channel only. I think you don't want be banned",
 		"EMBED": {
@@ -51,7 +50,7 @@
 			"description": "Would you do it? :)",
 			"EMBED": {
 				"title": "Send me to your server :)",
-				"description": "You just need to click on that [link](https://discord.com/oauth2/authorize/?permissions=1514717707351&scope=bot&client_id=832998059334959134) ◄"
+				"description": "You just need to click on this"
 			}
 		},
 		"ping": {
@@ -256,6 +255,10 @@
 		}
 	},
 	"text": {
+		"cowsay": {
+			"description": "Moo moo",
+			"noMoo": "No Moo moo"
+		},
 		"jojo": {
 			"description": null
 		},
@@ -293,17 +296,21 @@
 			"defaultNote": "Keep being furry UwU",
 			"newNote": "Added note!",
 			"EMBED": {
-				"title": "Notes of"
+				"title": "'s Notes"
 			}
 		},
 		"region": {
-			"description": "Troca a região do servidor",
+			"description": "Change the server language",
 			"noReg": "The server current region is `$REGION`"
 		},
 		"translate": {
 			"description": "A translater without leaving discord",
-			"noText": "No text to translate",
+			"noText": "Command example: `trans <to> <text>`",
 			"translation": "From *$FROM* to *$TO*"
+		},
+		"wikipedia": {
+			"description": "Wikipedia inside discord",
+			"noResults": "No results found"
 		}
 	}
 }

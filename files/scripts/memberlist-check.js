@@ -13,15 +13,10 @@ const blacklist = {
 
 module.exports = {
 	blacklistCheck: function(user) {
-		if(Object.keys(blacklist).includes(user))
-			return blacklist[user]; // Reason
-		else
-			return false;
+		return blacklist[user] // Reason
+			? (Object.keys(blacklist).includes(user)) : false
 	},
 	whitelistCheck: function(user) {
-		if(whitelist.includes(user))
-			return true;
-		else
-			return false;
+		return true ? (whitelist.includes(user)) : false;
 	}
 }
